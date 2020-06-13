@@ -85,9 +85,9 @@ const darkmap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.pn
   // Create a new map
   var myMap = L.map("map", {
     center: [
-      37.09, -95.71
+      39.06, -86.86
     ],
-    zoom: 4,
+    zoom: 3,
     layers: [streetmap, earthquakes]
   });
 
